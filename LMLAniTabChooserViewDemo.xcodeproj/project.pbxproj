@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480156CA1D91310B00D996B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156C91D91310B00D996B1 /* main.m */; };
+		480156CD1D91310B00D996B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156CC1D91310B00D996B1 /* AppDelegate.m */; };
+		480156D01D91310B00D996B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156CF1D91310B00D996B1 /* ViewController.m */; };
+		480156D31D91310B00D996B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480156D11D91310B00D996B1 /* Main.storyboard */; };
+		480156D51D91310B00D996B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480156D41D91310B00D996B1 /* Assets.xcassets */; };
+		480156D81D91310B00D996B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480156D61D91310B00D996B1 /* LaunchScreen.storyboard */; };
+		480156E31D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156E21D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.m */; };
+		480156EE1D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156ED1D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.m */; };
+		480157041D9131CE00D996B1 /* LMLAniTabBackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480156FE1D9131CE00D996B1 /* LMLAniTabBackView.m */; };
+		480157051D9131CE00D996B1 /* tran3.png in Resources */ = {isa = PBXBuildFile; fileRef = 480156FF1D9131CE00D996B1 /* tran3.png */; };
+		480157061D9131CE00D996B1 /* LMLAniTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 480157021D9131CE00D996B1 /* LMLAniTabCell.m */; };
+		480157071D9131CE00D996B1 /* LMLAniTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480157031D9131CE00D996B1 /* LMLAniTabCell.xib */; };
+		480157181D91336300D996B1 /* bk_cengdie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157091D91336300D996B1 /* bk_cengdie@2x.png */; };
+		480157191D91336300D996B1 /* bk_cengdie@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801570A1D91336300D996B1 /* bk_cengdie@3x.png */; };
+		4801571A1D91336300D996B1 /* bk_fangkuang@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801570B1D91336300D996B1 /* bk_fangkuang@2x.png */; };
+		4801571B1D91336300D996B1 /* bk_fangkuang@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801570C1D91336300D996B1 /* bk_fangkuang@3x.png */; };
+		4801571C1D91336300D996B1 /* bk_jiahao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801570D1D91336300D996B1 /* bk_jiahao@2x.png */; };
+		4801571D1D91336300D996B1 /* bk_lanzi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801570E1D91336300D996B1 /* bk_lanzi@2x.png */; };
+		4801571E1D91336300D996B1 /* bk_lanzi@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4801570F1D91336300D996B1 /* bk_lanzi@3x.png */; };
+		4801571F1D91336300D996B1 /* bk_xiaoche@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157101D91336300D996B1 /* bk_xiaoche@2x.png */; };
+		480157201D91336300D996B1 /* bk_xiaoche@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157111D91336300D996B1 /* bk_xiaoche@3x.png */; };
+		480157211D91336300D996B1 /* bk_xiaomiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157121D91336300D996B1 /* bk_xiaomiao@2x.png */; };
+		480157221D91336300D996B1 /* bk_xiaomiao@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157131D91336300D996B1 /* bk_xiaomiao@3x.png */; };
+		480157231D91336300D996B1 /* bk_xiaoyu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157141D91336300D996B1 /* bk_xiaoyu@2x.png */; };
+		480157241D91336300D996B1 /* bk_xiaoyu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157151D91336300D996B1 /* bk_xiaoyu@3x.png */; };
+		480157251D91336300D996B1 /* bk_xiaozhu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157161D91336300D996B1 /* bk_xiaozhu@2x.png */; };
+		480157261D91336300D996B1 /* bk_xiaozhu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 480157171D91336300D996B1 /* bk_xiaozhu@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480156DF1D91310B00D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480156BD1D91310B00D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480156C41D91310B00D996B1;
+			remoteInfo = LMLAniTabChooserViewDemo;
+		};
+		480156EA1D91310B00D996B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 480156BD1D91310B00D996B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480156C41D91310B00D996B1;
+			remoteInfo = LMLAniTabChooserViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480156C51D91310B00D996B1 /* LMLAniTabChooserViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMLAniTabChooserViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		480156C91D91310B00D996B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480156CB1D91310B00D996B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480156CC1D91310B00D996B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480156CE1D91310B00D996B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480156CF1D91310B00D996B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480156D21D91310B00D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		480156D41D91310B00D996B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		480156D71D91310B00D996B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		480156D91D91310B00D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480156DE1D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLAniTabChooserViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480156E21D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLAniTabChooserViewDemoTests.m; sourceTree = "<group>"; };
+		480156E41D91310B00D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480156E91D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLAniTabChooserViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		480156ED1D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLAniTabChooserViewDemoUITests.m; sourceTree = "<group>"; };
+		480156EF1D91310B00D996B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480156FD1D9131CE00D996B1 /* LMLAniTabBackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLAniTabBackView.h; sourceTree = "<group>"; };
+		480156FE1D9131CE00D996B1 /* LMLAniTabBackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLAniTabBackView.m; sourceTree = "<group>"; };
+		480156FF1D9131CE00D996B1 /* tran3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tran3.png; sourceTree = "<group>"; };
+		480157011D9131CE00D996B1 /* LMLAniTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMLAniTabCell.h; sourceTree = "<group>"; };
+		480157021D9131CE00D996B1 /* LMLAniTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMLAniTabCell.m; sourceTree = "<group>"; };
+		480157031D9131CE00D996B1 /* LMLAniTabCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LMLAniTabCell.xib; sourceTree = "<group>"; };
+		480157091D91336300D996B1 /* bk_cengdie@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_cengdie@2x.png"; sourceTree = "<group>"; };
+		4801570A1D91336300D996B1 /* bk_cengdie@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_cengdie@3x.png"; sourceTree = "<group>"; };
+		4801570B1D91336300D996B1 /* bk_fangkuang@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_fangkuang@2x.png"; sourceTree = "<group>"; };
+		4801570C1D91336300D996B1 /* bk_fangkuang@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_fangkuang@3x.png"; sourceTree = "<group>"; };
+		4801570D1D91336300D996B1 /* bk_jiahao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_jiahao@2x.png"; sourceTree = "<group>"; };
+		4801570E1D91336300D996B1 /* bk_lanzi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_lanzi@2x.png"; sourceTree = "<group>"; };
+		4801570F1D91336300D996B1 /* bk_lanzi@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_lanzi@3x.png"; sourceTree = "<group>"; };
+		480157101D91336300D996B1 /* bk_xiaoche@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaoche@2x.png"; sourceTree = "<group>"; };
+		480157111D91336300D996B1 /* bk_xiaoche@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaoche@3x.png"; sourceTree = "<group>"; };
+		480157121D91336300D996B1 /* bk_xiaomiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaomiao@2x.png"; sourceTree = "<group>"; };
+		480157131D91336300D996B1 /* bk_xiaomiao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaomiao@3x.png"; sourceTree = "<group>"; };
+		480157141D91336300D996B1 /* bk_xiaoyu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaoyu@2x.png"; sourceTree = "<group>"; };
+		480157151D91336300D996B1 /* bk_xiaoyu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaoyu@3x.png"; sourceTree = "<group>"; };
+		480157161D91336300D996B1 /* bk_xiaozhu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaozhu@2x.png"; sourceTree = "<group>"; };
+		480157171D91336300D996B1 /* bk_xiaozhu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bk_xiaozhu@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480156C21D91310B00D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156DB1D91310B00D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156E61D91310B00D996B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		480156BC1D91310B00D996B1 = {
+			isa = PBXGroup;
+			children = (
+				480156FB1D9131CD00D996B1 /* LMLAniTabChooserView */,
+				480156C71D91310B00D996B1 /* LMLAniTabChooserViewDemo */,
+				480156E11D91310B00D996B1 /* LMLAniTabChooserViewDemoTests */,
+				480156EC1D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests */,
+				480156C61D91310B00D996B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		480156C61D91310B00D996B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480156C51D91310B00D996B1 /* LMLAniTabChooserViewDemo.app */,
+				480156DE1D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.xctest */,
+				480156E91D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480156C71D91310B00D996B1 /* LMLAniTabChooserViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				480156CB1D91310B00D996B1 /* AppDelegate.h */,
+				480156CC1D91310B00D996B1 /* AppDelegate.m */,
+				480156CE1D91310B00D996B1 /* ViewController.h */,
+				480156CF1D91310B00D996B1 /* ViewController.m */,
+				480156D11D91310B00D996B1 /* Main.storyboard */,
+				480156D41D91310B00D996B1 /* Assets.xcassets */,
+				480156D61D91310B00D996B1 /* LaunchScreen.storyboard */,
+				480156D91D91310B00D996B1 /* Info.plist */,
+				480156C81D91310B00D996B1 /* Supporting Files */,
+			);
+			path = LMLAniTabChooserViewDemo;
+			sourceTree = "<group>";
+		};
+		480156C81D91310B00D996B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480156C91D91310B00D996B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480156E11D91310B00D996B1 /* LMLAniTabChooserViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				480156E21D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.m */,
+				480156E41D91310B00D996B1 /* Info.plist */,
+			);
+			path = LMLAniTabChooserViewDemoTests;
+			sourceTree = "<group>";
+		};
+		480156EC1D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				480156ED1D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.m */,
+				480156EF1D91310B00D996B1 /* Info.plist */,
+			);
+			path = LMLAniTabChooserViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		480156FB1D9131CD00D996B1 /* LMLAniTabChooserView */ = {
+			isa = PBXGroup;
+			children = (
+				480157081D91336300D996B1 /* resources */,
+				480156FC1D9131CD00D996B1 /* LMLAniTab */,
+			);
+			path = LMLAniTabChooserView;
+			sourceTree = "<group>";
+		};
+		480156FC1D9131CD00D996B1 /* LMLAniTab */ = {
+			isa = PBXGroup;
+			children = (
+				480156FD1D9131CE00D996B1 /* LMLAniTabBackView.h */,
+				480156FE1D9131CE00D996B1 /* LMLAniTabBackView.m */,
+				480156FF1D9131CE00D996B1 /* tran3.png */,
+				480157001D9131CE00D996B1 /* Views */,
+			);
+			path = LMLAniTab;
+			sourceTree = "<group>";
+		};
+		480157001D9131CE00D996B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				480157011D9131CE00D996B1 /* LMLAniTabCell.h */,
+				480157021D9131CE00D996B1 /* LMLAniTabCell.m */,
+				480157031D9131CE00D996B1 /* LMLAniTabCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		480157081D91336300D996B1 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				480157091D91336300D996B1 /* bk_cengdie@2x.png */,
+				4801570A1D91336300D996B1 /* bk_cengdie@3x.png */,
+				4801570B1D91336300D996B1 /* bk_fangkuang@2x.png */,
+				4801570C1D91336300D996B1 /* bk_fangkuang@3x.png */,
+				4801570D1D91336300D996B1 /* bk_jiahao@2x.png */,
+				4801570E1D91336300D996B1 /* bk_lanzi@2x.png */,
+				4801570F1D91336300D996B1 /* bk_lanzi@3x.png */,
+				480157101D91336300D996B1 /* bk_xiaoche@2x.png */,
+				480157111D91336300D996B1 /* bk_xiaoche@3x.png */,
+				480157121D91336300D996B1 /* bk_xiaomiao@2x.png */,
+				480157131D91336300D996B1 /* bk_xiaomiao@3x.png */,
+				480157141D91336300D996B1 /* bk_xiaoyu@2x.png */,
+				480157151D91336300D996B1 /* bk_xiaoyu@3x.png */,
+				480157161D91336300D996B1 /* bk_xiaozhu@2x.png */,
+				480157171D91336300D996B1 /* bk_xiaozhu@3x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480156C41D91310B00D996B1 /* LMLAniTabChooserViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480156F21D91310B00D996B1 /* Build configuration list for PBXNativeTarget "LMLAniTabChooserViewDemo" */;
+			buildPhases = (
+				480156C11D91310B00D996B1 /* Sources */,
+				480156C21D91310B00D996B1 /* Frameworks */,
+				480156C31D91310B00D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMLAniTabChooserViewDemo;
+			productName = LMLAniTabChooserViewDemo;
+			productReference = 480156C51D91310B00D996B1 /* LMLAniTabChooserViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		480156DD1D91310B00D996B1 /* LMLAniTabChooserViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480156F51D91310B00D996B1 /* Build configuration list for PBXNativeTarget "LMLAniTabChooserViewDemoTests" */;
+			buildPhases = (
+				480156DA1D91310B00D996B1 /* Sources */,
+				480156DB1D91310B00D996B1 /* Frameworks */,
+				480156DC1D91310B00D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480156E01D91310B00D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLAniTabChooserViewDemoTests;
+			productName = LMLAniTabChooserViewDemoTests;
+			productReference = 480156DE1D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		480156E81D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480156F81D91310B00D996B1 /* Build configuration list for PBXNativeTarget "LMLAniTabChooserViewDemoUITests" */;
+			buildPhases = (
+				480156E51D91310B00D996B1 /* Sources */,
+				480156E61D91310B00D996B1 /* Frameworks */,
+				480156E71D91310B00D996B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480156EB1D91310B00D996B1 /* PBXTargetDependency */,
+			);
+			name = LMLAniTabChooserViewDemoUITests;
+			productName = LMLAniTabChooserViewDemoUITests;
+			productReference = 480156E91D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		480156BD1D91310B00D996B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "优谱德";
+				TargetAttributes = {
+					480156C41D91310B00D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					480156DD1D91310B00D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480156C41D91310B00D996B1;
+					};
+					480156E81D91310B00D996B1 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 480156C41D91310B00D996B1;
+					};
+				};
+			};
+			buildConfigurationList = 480156C01D91310B00D996B1 /* Build configuration list for PBXProject "LMLAniTabChooserViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 480156BC1D91310B00D996B1;
+			productRefGroup = 480156C61D91310B00D996B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480156C41D91310B00D996B1 /* LMLAniTabChooserViewDemo */,
+				480156DD1D91310B00D996B1 /* LMLAniTabChooserViewDemoTests */,
+				480156E81D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		480156C31D91310B00D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480157191D91336300D996B1 /* bk_cengdie@3x.png in Resources */,
+				4801571D1D91336300D996B1 /* bk_lanzi@2x.png in Resources */,
+				480157051D9131CE00D996B1 /* tran3.png in Resources */,
+				480157221D91336300D996B1 /* bk_xiaomiao@3x.png in Resources */,
+				480157211D91336300D996B1 /* bk_xiaomiao@2x.png in Resources */,
+				4801571E1D91336300D996B1 /* bk_lanzi@3x.png in Resources */,
+				4801571B1D91336300D996B1 /* bk_fangkuang@3x.png in Resources */,
+				480157261D91336300D996B1 /* bk_xiaozhu@3x.png in Resources */,
+				480157241D91336300D996B1 /* bk_xiaoyu@3x.png in Resources */,
+				480157181D91336300D996B1 /* bk_cengdie@2x.png in Resources */,
+				480156D81D91310B00D996B1 /* LaunchScreen.storyboard in Resources */,
+				480157251D91336300D996B1 /* bk_xiaozhu@2x.png in Resources */,
+				480156D51D91310B00D996B1 /* Assets.xcassets in Resources */,
+				4801571F1D91336300D996B1 /* bk_xiaoche@2x.png in Resources */,
+				480157231D91336300D996B1 /* bk_xiaoyu@2x.png in Resources */,
+				480156D31D91310B00D996B1 /* Main.storyboard in Resources */,
+				4801571A1D91336300D996B1 /* bk_fangkuang@2x.png in Resources */,
+				480157071D9131CE00D996B1 /* LMLAniTabCell.xib in Resources */,
+				480157201D91336300D996B1 /* bk_xiaoche@3x.png in Resources */,
+				4801571C1D91336300D996B1 /* bk_jiahao@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156DC1D91310B00D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156E71D91310B00D996B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480156C11D91310B00D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480157061D9131CE00D996B1 /* LMLAniTabCell.m in Sources */,
+				480156D01D91310B00D996B1 /* ViewController.m in Sources */,
+				480156CD1D91310B00D996B1 /* AppDelegate.m in Sources */,
+				480157041D9131CE00D996B1 /* LMLAniTabBackView.m in Sources */,
+				480156CA1D91310B00D996B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156DA1D91310B00D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480156E31D91310B00D996B1 /* LMLAniTabChooserViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480156E51D91310B00D996B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480156EE1D91310B00D996B1 /* LMLAniTabChooserViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480156E01D91310B00D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480156C41D91310B00D996B1 /* LMLAniTabChooserViewDemo */;
+			targetProxy = 480156DF1D91310B00D996B1 /* PBXContainerItemProxy */;
+		};
+		480156EB1D91310B00D996B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480156C41D91310B00D996B1 /* LMLAniTabChooserViewDemo */;
+			targetProxy = 480156EA1D91310B00D996B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480156D11D91310B00D996B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480156D21D91310B00D996B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		480156D61D91310B00D996B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480156D71D91310B00D996B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480156F01D91310B00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		480156F11D91310B00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480156F31D91310B00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLAniTabChooserViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLAniTabChooserViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		480156F41D91310B00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMLAniTabChooserViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLAniTabChooserViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		480156F61D91310B00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLAniTabChooserViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLAniTabChooserViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLAniTabChooserViewDemo.app/LMLAniTabChooserViewDemo";
+			};
+			name = Debug;
+		};
+		480156F71D91310B00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LMLAniTabChooserViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLAniTabChooserViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMLAniTabChooserViewDemo.app/LMLAniTabChooserViewDemo";
+			};
+			name = Release;
+		};
+		480156F91D91310B00D996B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLAniTabChooserViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLAniTabChooserViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLAniTabChooserViewDemo;
+			};
+			name = Debug;
+		};
+		480156FA1D91310B00D996B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LMLAniTabChooserViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.LMLAniTabChooserViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LMLAniTabChooserViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		480156C01D91310B00D996B1 /* Build configuration list for PBXProject "LMLAniTabChooserViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480156F01D91310B00D996B1 /* Debug */,
+				480156F11D91310B00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480156F21D91310B00D996B1 /* Build configuration list for PBXNativeTarget "LMLAniTabChooserViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480156F31D91310B00D996B1 /* Debug */,
+				480156F41D91310B00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480156F51D91310B00D996B1 /* Build configuration list for PBXNativeTarget "LMLAniTabChooserViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480156F61D91310B00D996B1 /* Debug */,
+				480156F71D91310B00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480156F81D91310B00D996B1 /* Build configuration list for PBXNativeTarget "LMLAniTabChooserViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480156F91D91310B00D996B1 /* Debug */,
+				480156FA1D91310B00D996B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 480156BD1D91310B00D996B1 /* Project object */;
+}
