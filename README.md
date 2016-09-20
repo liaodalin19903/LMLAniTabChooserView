@@ -1,5 +1,6 @@
 # LMLAniTabChooserView
-a animation table picker.  仿QQ，微信选择器
+a animation table picker.  仿QQ，微信选择器   
+<br>QQ交流群：566966977   不懂可以在群里讨论
 
 ##效果展示图
 
